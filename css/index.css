@@ -156,7 +156,7 @@ body{
     flex-wrap: wrap;
 }
 
-.block_title{
+.block_content{
     max-width: 2560px;
     min-height: 677px;
     background: linear-gradient( hsla(28, 16%, 20%, 0.7), hsla(27, 15%, 24%, 0.8)), url('../img/backfon.jpeg');
