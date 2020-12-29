@@ -1,0 +1,981 @@
+@import url(../css/fonts.css);
+@import url(../css/reset.css);
+
+body{
+    width: 100%;
+    margin: auto;
+    background-color: #fafafa;
+}
+
+.top{
+    max-width: 1170px;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+}
+ 
+.top_contact{
+    display: flex;
+    margin: 0 0 0 296px;
+}
+
+.top_contact p{
+    margin: 0 19px 0 0;
+}
+
+.top_logo{
+   width: 236px;
+   height: 100px; 
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: auto;
+
+}
+
+.top_tel{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Titillium Web bold', sans-serif;
+    font-size: 14px;
+    color: #74675a;
+}
+
+.top_mail{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 400;  
+    color: #74675a;
+}
+
+.top_icon img{
+    margin: 3px 20px 0 0;
+    color:   #74675a;
+   
+} 
+
+.top_icon a{
+    text-decoration: none;
+}
+
+.top_facebook{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.top_instagram{
+    width: 24px;
+    height: 24px;
+}
+
+.top_youtube{
+    width: 24px;
+    height: 24px;
+}
+
+.top_btn_contact{
+    width: 191px;
+    height: 40px;
+    display: inline-block;
+    margin-left: auto;
+    border-radius: 20px;
+    background-color: #a5c752;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.top_btn_contact:hover{
+    background-color: #74675a;
+    transition: 0.40s;
+}
+
+.top_conection{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+    color: white; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+.menu{
+    height: 42px;
+    display: flex;
+    background-color: #CEE39A;
+    justify-content: center;
+    position: relative;
+}
+
+.menu a{
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: #74675a;
+    margin: 0 40px 0 0;
+    position: relative;
+    top: 13px;
+    left: 29px;
+}
+
+.menu_line{
+    max-width: 1200px;
+    padding-top: 9px;
+    margin: 0 0 0 34px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_title{
+    max-width: 2560px;
+    min-height: 677px;
+    background: linear-gradient( hsla(28, 16%, 20%, 0.7), hsla(27, 15%, 24%, 0.8)), url('../img/backfon.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-top: -56px;
+    margin-bottom: -40px;
+}
+
+.text_title_block{
+    max-width: 1170px;
+    position: relative;
+    top: 254px;
+    margin: 0 auto;
+}
+
+.text_title{
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #ffffff; 
+    text-align: center;
+}
+
+.btn_block{
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    top: 258px;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.btn_reservation{
+    width: 225px;
+    height: 50px;
+    border-radius:40px;
+    background-color: #A5C752;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.btn_reservation:hover{
+    background-color: #74675a;
+    transition: 0.40s;
+}
+
+.reserve{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    top: 17px;
+    display: flex;
+    justify-content: center;
+    color: white; 
+    text-decoration: none;  
+    letter-spacing: 1px;
+}
+
+.about_us{
+    max-width: 1170px;
+    height: 540px;
+    margin: 40px 0 0 367px;
+    padding: 0 0 0 0;
+    background-color: #fafafa;
+}
+
+.flower{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 85px;
+}
+
+.about_text{
+    max-width: 1170px;
+    justify-content: center; 
+}
+
+.about_juv{
+    font-family:'Merienda', cundefined; 
+    color: #A5C752;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+}
+
+.about_description{
+    max-width: 1170px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    text-align: center;
+}
+
+.about_description p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ab_text1{
+    margin: 0 0 -16px 0;
+}
+
+.ab_text3{
+    margin: -42px 268px 0px 0px;
+}
+
+.ab_text4{
+    margin: -25px -58px 0 0;
+}
+
+.ab_text5{
+    margin: 0 0 0 -205px;
+}
+
+.ab_text6{
+    margin:  0 0 0 -223px;
+}
+
+.ab_text7{
+    margin: -26px 0 0 -104px;
+}
+
+.ab_text8{
+    margin:  26px 0 0 0;
+}  
+
+.service{
+    max-width: 2560px;
+    min-height: 805px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.40), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background-position: center;
+    margin: 0;
+    padding-top: 85px;
+}
+
+.flower_serice{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.service_text{
+    font-family:'Merienda', cundefined; 
+    color: #A5C752;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 10px 0 54px 0;
+} 
+
+.service_block{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 367px;
+}
+
+.service_block img{
+    width: 270px;
+    height: 179px;
+    border-radius: 10px;
+}
+
+.service_block_1{
+    margin: 0 29px 0 0;
+}
+
+.service_block_2{
+    margin: 0 29px 0 0;
+}
+
+.service_block_1 p{
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Titillium Web',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #74675a;
+    text-align: center;
+}
+
+.service_block_2 p{
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #74675a;
+    text-align: center;
+}
+
+.special{
+    max-width: 1170px;
+    height: 540px;
+    margin: auto;
+    padding-top: 85px;
+    background-color: #fafafa;
+}
+
+.flower_special{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.special_text{
+    font-family: 'Merienda', cundefined;
+    color: #A5C752;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 10px 0 54px 0;
+}
+
+.rev_slider img{
+    width: 555px;
+    height: 447;
+    border-radius: 10px;
+}
+
+.special_name{
+    font-size: 24px;
+    line-height: 1.4;
+    font-family: 'Merienda', cundefined;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing:.042em;
+    color: #74675a;
+}
+
+.special_info{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+}
+
+.special_uah{
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing:.042em;
+    color: #74675a;
+}
+
+.btn_order{
+    width: 125px;
+    height: 40px;
+    border-radius:40px;
+    background-color: #A5C752;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.btn_order:hover{
+    background-color: #74675a;
+    transition: 0.40s;
+}
+
+.order{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+    color: white; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+.price{
+    max-width: 2560px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.40), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background-position: center;
+    margin: 0;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    position: relative;
+    top: 495px;
+}
+
+.price_block{
+    width: 1170px;
+    display: flex;
+    margin: auto;
+}
+
+.price_list{
+    width: 270px;
+    height: 412px;
+    border-radius: 20px;
+    background-color: #A5C752; 
+    margin: 30px 25px 0 0; 
+}
+
+.flower_price{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.price_text{
+    font-family: 'Merienda', cundefined;
+    color: #74675a;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 10px 0 54px 0;
+}
+
+.p_name{
+    font-family: 'Merienda', cundefined;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 35px 0 39px 0;
+}
+
+.p_logo{
+    width: 30px;
+    position: relative;
+    top: 33px;
+    left: 120px;
+}
+
+.p_uah{
+    font-family: 'Merienda', cundefined;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: 10px 0 54px 0;
+    position: relative;
+    top: 58px;
+}
+
+.btn_price{
+    width: 100px;
+    height: 40px;
+    border-radius:40px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.40s;
+    margin: auto;
+    position: relative;
+    top: 44px;
+}
+
+.btn_price:hover{
+    background-color: rgb(195, 209, 158);
+    transition: 0.40s;
+}
+
+.btn_name_price{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+    color: #74675a; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+.share{
+    max-width: 2560px;
+    min-height: 397px;
+    background: linear-gradient( hsla(78, 49%, 52%, 0.7), hsla(78, 52%, 46%, 0.8)), url('../img/share.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+    position: relative;
+    top: 482px;
+}
+
+.share_text{
+    font-family: 'Merienda', cundefined;
+    color:#74675a;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 115px;
+}
+
+.btn_share{
+    width: 180px;
+    height: 40px;
+    border-radius:40px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.40s;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
+.btn_share:hover{
+    background-color: rgb(195, 209, 158);
+    transition: 0.40s;
+}
+
+.button_sahre{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 11px;
+    display: flex;
+    justify-content: center;
+    color: #74675a; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+.reviews{
+    width: 1170px;
+    height: 485px;
+    position: relative;
+    top: 567px;
+    margin: auto;
+}
+
+.client_slider{
+    width: 1170px;
+    position: relative;
+    top: 65px;
+}
+
+.reviews_text{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 11px;
+}
+
+.reviews_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.flower_reviews{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.name_client{
+    font-family: 'Merienda', cundefined;
+    color:#74675a;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 35px;
+}
+
+.clients_text{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.instagram{
+    max-width: 2560px;
+    min-height: 805px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.40), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background-position: center;
+    margin: auto;
+    padding-top: 85px;
+    position: relative;
+    top: 658px;
+}
+
+.insta_block{
+     width: 1170px;
+     margin: auto;
+}
+
+.flower_insta{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.insta_text{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 11px;
+}
+
+.insta_block{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.insta_block img{
+    width: 370px;
+    height: 233px;
+    border-radius: 10px;
+    margin: 65px 30px 0 0;
+}
+
+.iblock{
+    margin-top: -35px;
+}
+
+.restoration{
+    max-width: 1920px;
+    min-height: 1px;
+    background: url('../img/background-rest.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -56px;
+    margin-bottom: -40px;
+    position: relative;
+    top: 701px;
+}
+
+.rest_fon{
+    max-width: 1902px;
+    height: 341px;
+    background: linear-gradient( hsla(28, 16%, 60%, 0.5), hsla(27, 15%, 24%, 0.6));
+}
+
+.rest_content{
+    width: 1170px;
+    height: 341px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.restoration_text{
+    font-family: 'Merienda', cundefined;
+    color:#fff;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .042em;
+    margin: auto;
+    position: relative;
+    top: 11px;
+}
+
+.res_sub{
+    width: 368px;
+    height: 40px;
+    border-radius:40px;
+    border-style: none;
+    background-color: #A5C752;
+    cursor: pointer;
+    transition: 0.40s;
+    position: relative;
+    top: 35px ;
+    right: 0px;
+}
+
+.res_sub:hover{
+    background-color: #74675a;
+    transition: 0.40s;
+}
+
+.phone_text{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    position: relative;
+    top: -25px;
+    left: 371px;
+}
+
+.res_number{
+    width: 368px;
+    height: 40px;
+    border-radius:40px;
+    background-color: #fff;
+    cursor: pointer;
+    border-style: none;
+    position: relative;
+    top: -25px;
+    left: 371px;
+}
+
+
+.contact_us{
+    max-width: 2560px;
+    min-height: 805px;
+    background: linear-gradient( hsla(0, 0%, 100%, 0.40), hsla(0, 2%, 78%, 0.3)), url('../img/fon2.png');
+    background-position: center;
+    margin: auto;
+    padding-top: 85px;
+    position: relative;
+    top: 741px;
+}
+
+.contact_content{
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+}
+
+.contact_block{
+    width: 570px;
+    height: 570px;
+    background-color:  #fafafa;
+    border-radius: 40px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    display: flex; 
+}
+
+.feedback{
+    width: 370px;
+    height: 40px;
+    background-color: rgba(116, 103, 90, 0.10);
+    --w-get-input-background-color: rgba(116, 103, 90, 0.10);
+    border-style: none;
+    border-radius: 40px;
+    margin: 24px 0 0 0;
+    padding: 0;
+}
+
+.message_feedback{
+    width: 370px;
+    height: 150px;
+    background-color: rgba(116, 103, 90, 0.10);
+    --w-get-input-background-color: rgba(116, 103, 90, 0.10);
+    border-style: none;
+    border-radius: 20px;
+    margin: 24px 0 0 0;
+}
+
+.bttn_contact{
+    width: 370px;
+    height: 40px;
+    border-radius:40px;
+    border-style: none;
+    background-color: #A5C752;
+    cursor: pointer;
+    transition: 0.40s;
+    margin: 56px 0 0 0;
+}
+
+.feedback_block{
+  margin-top: 52px;
+  margin-left: 100px;
+}
+
+.contact_text{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.flower_contact{
+    margin: 0 0 -25px 0;
+}
+
+.ctext_info{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+}
+
+.ctadress{
+    display: flex;
+}
+
+.adress{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.adress_street{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    margin: 27px 0px 25px 61px;
+}
+
+.contact_time{
+    display: flex;
+}
+
+.time{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.timetable{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    margin: 27px 0px 25px 100px;
+}
+
+.contact_namber_phone{
+    display: flex;
+}
+
+.contact_n_p{
+    font-family: 'Merienda', cundefined;
+    color:#A5C752;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.contact_n{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #74675a;
+    margin: 27px 0px 25px 44px;
+}
+
+.fotter_end{
+    width: 1903px;
+    height: 280px;
+    position: relative;
+    top: 676px;
+    background-color: #74675a;
+}
+
+.block_footer_end{
+    width: 1170px;
+    height: 130px;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.block_footer_icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.ft_juventas{
+    font-family: 'Merienda', cundefined;
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: .042em;
+}
+
+.ft_adress{
+    line-height: 1.6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .05em;
+    color: #ffffff;
+}
+
+.block_footer_end a{
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+   
+}
