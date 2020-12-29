@@ -1,6 +1,10 @@
 @import url(../css/fonts.css);
 @import url(../css/reset.css);
 
+html{
+     scroll-behavior: smooth;
+}
+
 body{
     width: 100%;
     margin: auto;
@@ -61,17 +65,6 @@ body{
 .top_icon a{
     text-decoration: none;
 }
-
-/* .btn_icon{
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    margin-left: auto;
-    border-radius: 20px;
-    background-color: #74675a;
-    cursor: pointer;
-    transition: 0.40s;
-} */
 
 .top_facebook{
     width: 24px;
@@ -726,7 +719,7 @@ body{
 }
 
 .restoration{
-    max-width: 1920px;
+    max-width: 1903px;
     min-height: 1px;
     background: url('../img/background-rest.jpeg');
     background-size: cover;
