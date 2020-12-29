@@ -88,11 +88,25 @@ body{
 .top_instagram{
     width: 24px;
     height: 24px;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.top_instagram:hover{
+    transform: scale(1.5);
+    transition: 0.40s;
 }
 
 .top_youtube{
     width: 24px;
     height: 24px;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.top_youtube:hover{
+    transform: scale(1.5);
+    transition: 0.40s;
 }
 
 .top_btn_contact{
@@ -952,8 +966,8 @@ body{
 }
 
 .fotter_end{
-    width: 1903px;
-    height: 280px;
+    max-width: 1903px;
+    height: 200px;
     position: relative;
     top: 676px;
     background-color: #74675a;
@@ -965,11 +979,25 @@ body{
     position: relative;
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .block_footer_icon img{
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
+    margin: 100px 23px 0 0;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.block_footer_icon img:hover{
+    transform: scale(1.2);
+    transition: 0.40s;
+}
+
+.block_footer_text{
+    text-align: center;
+    margin:  20px 0 0 0;
 }
 
 .ft_juventas{
@@ -994,5 +1022,33 @@ body{
     font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
     color: #ffffff;
+    margin:  25px 0 0 0;
    
+}
+
+.menu_link_ft1{
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0 0 0;
+    text-align: center;
+}
+
+.menu_link_ft1 a{
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.menu_link_ft1 a:hover{
+    color: #A5C752;
+    transition: 0.40s;
+}
+
+.menu_link_ft2 a{
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.menu_link_ft2 a:hover{
+    color: #A5C752;
+    transition: 0.40s;
 }
