@@ -62,10 +62,27 @@ body{
     text-decoration: none;
 }
 
+/* .btn_icon{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: auto;
+    border-radius: 20px;
+    background-color: #74675a;
+    cursor: pointer;
+    transition: 0.40s;
+} */
+
 .top_facebook{
     width: 24px;
     height: 24px;
-    
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.top_facebook:hover{
+    transform: scale(1.5);
+    transition: 0.40s;
 }
 
 .top_instagram{
