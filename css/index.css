@@ -1110,32 +1110,51 @@ body{
 }
 
 @media screen and (max-width: 1024px) {
+    
+    .top{
+        max-width: 980px;
+    }
 
     .block_footer_end{
-        max-width: 1000px
+        max-width: 1024px
+    }
+
+    .top_contact {
+        display: flex;
+        margin: 0;
     }
     
     .service{
-        max-width: 1000px
+        max-width: 1024px
     }
+
     .price{
-        max-width: 1000px
+        max-width: 1024px
     }
+
+    .price_block {
+        width: 1000px;
+    }
+
     .share{
-        max-width: 1000px
+        max-width: 1024px
     }
 
     .reviews{
-        max-width: 1000px
+        max-width: 1024px
     }
 
     .instagram{
-        max-width: 1000px;
+        max-width: 1024px;
         margin: 0;    
     }
 
-    .restoration{
+    .insta_block{
         max-width: 1000px;
+    }
+
+    .restoration{
+        max-width: 1024px;
     }
 
     .res_number {
@@ -1164,13 +1183,13 @@ body{
     }
 
     .special{
-        max-width: 1000px;
+        max-width:  860px;
         height: 540px;
         margin: auto;
     }
     
     .rev_slider img {
-        width: 500px;
+        width: 400px;
     }
 
     .special_info{
@@ -1184,19 +1203,50 @@ body{
 
     .price_list{
         max-width: 233px;
-        margin: 19px 0px 0px 18px;
+        margin: 19px 0px 0px 13px;
     }
 
     .insta_block img {
-    width: 310px;
-    height: 210px;
+        width: 310px;
+        height: 210px;
     }
     
    .rest_content{
-       width: 1000px;
-   }
+       width: 950px;
+    }
     .rest_block_2{
-        max-width: 500px;
+        max-width: 300px;
+    }
+
+    .block_footer_end {
+        width: 920px;
+    }
+
+    .contact_us {
+        max-width: 1024px;
+        margin: 0;
+    }
+
+    .contact_content {
+        max-width: 950px;
+    }
+
+    .feedback_block {
+        margin-left: 60px;
+    }
+
+    .fotter_end {
+    max-width: 1024px;
+    }
+
+    .service_block {
+        max-width: 1024px;
+        justify-content: center;
+    }
+
+    .service_block img {
+        width: 213px;
+        height: 141px;
     }
 
 }
