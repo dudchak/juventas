@@ -1065,9 +1065,49 @@ body{
 
 @media screen and (max-width: 1200px) {
 
-    body{
-        max-width: 1170px;
+    
+    .block_footer_end{
+        max-width: 1200px
     }
+
+    .top_contact {
+        display: flex;
+        margin: 0;
+    }
+    
+    .service{
+        max-width: 1200px
+    }
+
+    .price{
+        max-width: 1200px
+    }
+
+    .price_block {
+        width: 1200px;
+    }
+
+    .share{
+        max-width: 1200px
+    }
+
+    .reviews{
+        max-width: 1200px
+    }
+
+    .instagram{
+        max-width: 1200px;
+        margin: 0;    
+    }
+
+    .insta_block{
+        max-width: 1200px;
+    }
+
+    .restoration{
+        max-width: 1200px;
+    }
+
 
     .service_block_1:nth-child(1),
     .service_block_1:nth-child(2),
