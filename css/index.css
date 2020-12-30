@@ -6,7 +6,7 @@ html{
 }
 
 body{
-    width: 100%;
+    max-width: 1920px;
     margin: auto;
     background-color: #fafafa;
 }
@@ -146,6 +146,13 @@ body{
     position: relative;
     top: 13px;
     left: 29px;
+    cursor: pointer;
+    transition: 0.40s;
+}
+
+.menu a:hover{
+    color: #ffffff;
+    transition: 0.40s;
 }
 
 .menu_line{
@@ -222,10 +229,15 @@ body{
 
 .about_us{
     max-width: 1170px;
-    height: 540px;
-    margin: 40px 0 0 367px;
+    height: 450px;
+    margin: 40px auto;
     padding: 0 0 0 0;
     background-color: #fafafa;
+}
+
+.about_block{
+    display: flex;
+    flex-direction: column;
 }
 
 .flower{
@@ -326,7 +338,7 @@ body{
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 367px;
+    margin: auto;
 }
 
 .service_block img{
@@ -758,6 +770,10 @@ body{
     top: 11px;
 }
 
+.rest_block_2{
+    max-width: 365px;
+}
+
 .res_sub{
     width: 368px;
     height: 40px;
@@ -767,7 +783,7 @@ body{
     cursor: pointer;
     transition: 0.40s;
     position: relative;
-    top: 35px ;
+    top: 0px ;
     right: 0px;
 }
 
@@ -786,7 +802,7 @@ body{
     color: #74675a;
     position: relative;
     top: -25px;
-    left: 371px;
+    /* left: 371px; */
 }
 
 .res_number{
@@ -798,7 +814,7 @@ body{
     border-style: none;
     position: relative;
     top: -25px;
-    left: 371px;
+    /* left: 371px; */
 }
 
 
@@ -1044,4 +1060,155 @@ body{
 .menu_link_ft2 a:hover{
     color: #A5C752;
     transition: 0.40s;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    body{
+        max-width: 1170px;
+    }
+
+    .service_block_1:nth-child(1),
+    .service_block_1:nth-child(2),
+    .service_block_1:nth-child(3),
+    .service_block_1:nth-child(4),
+    .service_block_2:nth-child(5),
+    .service_block_2:nth-child(6),
+    .service_block_2:nth-child(7),
+    .service_block_2:nth-child(8){
+        margin-right: 10px ;        
+        margin-left: 17px;
+    } 
+
+    .about_us {
+        margin: 60px;
+    }
+
+    .special{
+        max-width: 1050px;
+        height: 540px;
+        margin: auto;
+    }
+    
+    .rev_slider img {
+    width: 500px;
+    }
+
+    .special_info{
+        letter-spacing: normal;
+    }
+
+    .client_slider {
+    margin: auto;
+    width: 1000px;
+    }
+
+    .price_list{
+       margin: 19px 0px 0px 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .block_footer_end{
+        max-width: 1000px
+    }
+    
+    .service{
+        max-width: 1000px
+    }
+    .price{
+        max-width: 1000px
+    }
+    .share{
+        max-width: 1000px
+    }
+
+    .reviews{
+        max-width: 1000px
+    }
+
+    .instagram{
+        max-width: 1000px;
+        margin: 0;    
+    }
+
+    .restoration{
+        max-width: 1000px;
+    }
+
+    .res_number {
+      width: 290px;
+    }
+
+    .res_sub {
+     width: 290px;
+    }
+
+    .service_block_1:nth-child(1),
+    .service_block_1:nth-child(2),
+    .service_block_1:nth-child(3),
+    .service_block_1:nth-child(4),
+    .service_block_2:nth-child(5),
+    .service_block_2:nth-child(6),
+    .service_block_2:nth-child(7),
+    .service_block_2:nth-child(8){
+        margin-right: 10px ;
+        margin-left: 17px;
+    } 
+
+    .about_us {
+        max-width: 1000px;
+        margin: 60px;
+    }
+
+    .special{
+        max-width: 1000px;
+        height: 540px;
+        margin: auto;
+    }
+    
+    .rev_slider img {
+        width: 500px;
+    }
+
+    .special_info{
+        letter-spacing: normal;
+    }
+
+    .client_slider {
+        margin: auto;
+        width: 800px;
+    }
+
+    .price_list{
+        max-width: 233px;
+        margin: 19px 0px 0px 18px;
+    }
+
+    .insta_block img {
+    width: 310px;
+    height: 210px;
+    }
+    
+   .rest_content{
+       width: 1000px;
+   }
+    .rest_block_2{
+        max-width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
